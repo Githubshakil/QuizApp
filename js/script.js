@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "What is larget animal in the world?",
+        question: "What is the largest animal in the world?",
         answers:[
             {text: "Elephant", correct: false},
             {text: "Blue whale", correct: true},
@@ -11,10 +11,10 @@ const questions = [
     {
         question: "What is the smallest country in the world?",
         answers:[
-            {text: "VAtican City", correct: true},
+            {text: "Vatican City", correct: true},
             {text: "Bhutan", correct: false},
             {text: "Nepal", correct: false},
-            {text: "Shri Lanka", correct: false},
+            {text: "Sri Lanka", correct: false},
         ]
     },
     {
@@ -44,9 +44,8 @@ const questions = [
             {text: "Hiroshima", correct: false},
         ]
     },
-
     {
-        question: "What is the capital of USA?",
+        question: "What is the capital of the USA?",
         answers:[
             {text: "New York", correct: false},
             {text: "Washington DC", correct: true},
@@ -72,7 +71,6 @@ const questions = [
             {text: "Shenzhen", correct: false},
         ]
     },
-
     {
         question: "What is the capital of Brazil?",
         answers:[
@@ -91,7 +89,6 @@ const questions = [
             {text: "Ottawa", correct: true},
         ]
     },
-
     {
         question: "What is the capital of France?",
         answers:[
@@ -109,9 +106,7 @@ const questions = [
             {text: "Hamburg", correct: false},
             {text: "Frankfurt", correct: false},
         ]
-
     },
-
     {
         question: "What is the capital of Italy?",
         answers:[
