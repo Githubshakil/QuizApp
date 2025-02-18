@@ -1,81 +1,73 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    font-family: 'poppins', sans-serif; /* Set font to 'poppins' */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 body{
-    background: #607295;
+    background: #607295; /* Background color for body */
 }
 .app{
-    background-color: #fff;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 10px ;
-    padding: 30px;
-   
+    background-color: #fff; /* White background for app container */
+    width: 90%; /* 90% width of the viewport */
+    max-width: 600px; /* Max width of 600px */
+    margin: 100px auto 0; /* Center align with margin from top */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding inside container */
 }
 .app h1{
-    font-size: 25px;
-    color: #001e4d;
-    font-weight: 600;
-    border-bottom: 1px solid #333;
-    padding-bottom: 30px;
-
+    font-size: 25px; /* Font size for h1 */
+    color: #001e4d; /* Text color for h1 */
+    font-weight: 600; /* Font weight for h1 */
+    border-bottom: 1px solid #333; /* Bottom border for h1 */
+    padding-bottom: 30px; /* Padding at the bottom */
 }
 .quiz{
-    padding: 20px 0;
+    padding: 20px 0; /* Padding for quiz container */
 }
 .quiz h2{
-    font-size: 18px;
-    color: #001e4d;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 18px; /* Font size for h2 */
+    color: #001e4d; /* Text color for h2 */
+    font-weight: 600; /* Font weight for h2 */
+    margin-bottom: 10px; /* Margin at the bottom */
 }
 .btn{
-    background-color: #fff;
-    color: #222;
-    font-weight: 500;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #333;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all linear 0.3s;
-
+    background-color: #fff; /* Background color for buttons */
+    color: #222; /* Text color for buttons */
+    font-weight: 500; /* Font weight for buttons */
+    width: 100%; /* Full width of container */
+    padding: 10px; /* Padding inside buttons */
+    border: 1px solid #333; /* Border for buttons */
+    margin: 10px 0; /* Margin at top and bottom */
+    text-align: left; /* Text alignment */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all linear 0.3s; /* Smooth transition for all properties */
 }
-
 .btn:hover:not([disabled]){
-    background-color: #2d2c2c;
-    color: #fff;
+    background-color: #2d2c2c; /* Background color on hover */
+    color: #fff; /* Text color on hover */
 }
 .btn:disabled{
-    
-    cursor: not-allowed;
+    cursor: not-allowed; /* Cursor style for disabled button */
 }
-
 #next-btn{
-    background: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 20px auto 0;
-    display: none;
-
+    background: #001e4d; /* Background color for next button */
+    color: #fff; /* Text color for next button */
+    font-weight: 500; /* Font weight for next button */
+    width: 150px; /* Width for next button */
+    border: 0; /* No border */
+    padding: 10px; /* Padding inside next button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin: 20px auto 0; /* Margin at top, center align */
+    display: none; /* Initially hidden */
 }
-
 .correct{
-    background-color: #9aeabc;
-    color: #fff;
+    background-color: #9aeabc; /* Background color for correct answers */
+    color: #fff; /* Text color for correct answers */
 }
 .incorrect{
-    background-color: #ff9393;
-    color: #721c24;
+    background-color: #ff9393; /* Background color for incorrect answers */
+    color: #721c24; /* Text color for incorrect answers */
 }
